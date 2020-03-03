@@ -2,7 +2,7 @@ img{
   height: 50px;
 }
 div div{
-      background-color: plum;
+      background-color: white;
       border: 1px solid rebeccaPurple;
     }
     .tall{
@@ -12,6 +12,10 @@ button{
   text-align: center;
   width: 250px;
 }
+.clothes{
+  height: 100px;
+  width: 100px;
+}
 #buttonred{
   background-color: red;
 }
@@ -19,5 +23,21 @@ button{
   background-color: #08427B;
 }
 #buttongreen{
-  background-color: green; 
+  background-color: green;
+}
+
+img:hover{
+  background-color: #de3dff;
+  -webkit-filte : blur(4px);
+  filter: blur(4px);
+
+}
+a:active{
+  -webkit-filter: saturate(6);
+  filter: saturate(6);
+}
+.ss:hover{
+  background-color: #fbad37;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
 }
