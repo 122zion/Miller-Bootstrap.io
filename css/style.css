@@ -8,16 +8,16 @@ div div{
     .tall{
       height: 750px;
     }
-  #div1 {
-    width: 100px;
-    height: 50px;
-    background-color: red;
-    font-weight: bold;
-    position: relative;
-    animation: mymove 5s infinite;
-    animation-timing-function:linear;
-  }
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 300px;}
+button{
+  text-align: center;
+  width: 250px;
+}
+#buttonred{
+  background-color: red;
+}
+#buttonblue{
+  background-color: #08427B;
+}
+#buttongreen{
+  background-color: green; 
 }
