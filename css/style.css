@@ -1,43 +1,30 @@
 img{
   height: 50px;
 }
+.img-container{
+  text-align: center;
+}
+.show{
+  height: 250px;
+  width: 250px;
+}
+.show:hover{
+  background-color: #FEDA73;
+}
+#top:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+#top{
+  height: 100px;
+  text-align: center;
+  transform: .2s;
+}
 div div{
       background-color: white;
       border: 1px solid rebeccaPurple;
     }
-    .tall{
-      height: 750px;
-    }
-button{
-  text-align: center;
-  width: 250px;
-}
-.clothes{
-  height: 100px;
-  width: 100px;
-}
-#buttonred{
-  background-color: red;
-}
-#buttonblue{
-  background-color: #08427B;
-}
-#buttongreen{
-  background-color: green;
-}
-
-img:hover{
-  background-color: #de3dff;
-  -webkit-filte : blur(4px);
-  filter: blur(4px);
-
-}
-a:active{
-  -webkit-filter: saturate(6);
-  filter: saturate(6);
-}
-.ss:hover{
-  background-color: #fbad37;
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
+h1, h2{
+  font-family: 'Fredoka One', cursive;
 }
