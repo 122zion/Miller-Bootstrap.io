@@ -22,9 +22,17 @@ img{
   transform: .2s;
 }
 div div{
-      background-color: white;
-      border: 1px solid rebeccaPurple;
+      background-color: #C1C1C0;
     }
+h1{
+  color:blue;
+}
 h1, h2{
   font-family: 'Fredoka One', cursive;
+}
+span{
+  font-size: 20px;
+}
+body{
+  background-color: #939292;
 }

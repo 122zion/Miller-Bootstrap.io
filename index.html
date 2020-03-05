@@ -41,6 +41,9 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Our Misson</a>
       </li>
+    <li>
+      <a class="nav-link" href="#">Cart🛒</a>
+    </li>
     </ul>
   </div>
 </nav>
@@ -70,8 +73,12 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12">
-      <h1>Our Mission</h1>
-      <h2>We want to provide everyone with all of the chances for every big and tall people to feel pretty and cool in our nice clothing. We got the finest supply of clothes and shoes to wear.</h2>
+      <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Our Misson</h1>
+    <p class="lead">We want to provide everyone with all of the chances for every big and tall people to feel pretty and cool in our nice clothing. We got the finest supply of clothes and shoes to wear.</p>
+  </div>
+</div>
     </div>
   </div>
   <div class="row">
@@ -226,9 +233,58 @@
     <img src="img/shoe5.jfif" alt="" class="show">
   </div>
 </div>
+<div class="row">
+  <div class="col-lg-4">
+    <button type="button" class="btn btn-lg btn-primary" disabled>Clarence</button>
+  </div>
+  <div class="col-lg-4">
+    <button type="button" class="btn btn-lg btn-primary" disabled>New</button>
+  </div>
+  <div class="col-lg-4">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Cart🛒
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Total:</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...<h3>Your total: <span>$999,999,999,999,999,999</span> </h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save For Later</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
-
+<form text-align:center; >
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
