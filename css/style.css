@@ -1,39 +1,100 @@
-img{
-  height: 50px;
+#logo{
+  height: 45px;
+  width:45px;
 }
-.img-container{
-  text-align: center;
+#sell:link {
+  color: Black;
 }
-.show{
-  height: 250px;
-  width: 250px;
-  padding: 10px;
+#sell:visited {
+  color: blue;
 }
-.show:hover{
-  background-color: #FEDA73;
+#sell:hover {
+  color: yellow;
 }
-#top:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+#sell:active {
+  color: blue;
 }
-#top{
-  height: 100px;
-  text-align: center;
-  transform: .2s;
+.navbar{
+  background-color: #48BF9C;
 }
-div div{
-      background-color: #C1C1C0;
-    }
 h1{
-  color:blue;
+  text-align: center;
+  font-size: 25px;
 }
-h1, h2{
-  font-family: 'Fredoka One', cursive;
+h2{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 75px; 
 }
-span{
-  font-size: 20px;
-}
-body{
-  background-color: #939292;
-}
+.sale {
+
+     font-family: futura;
+     font-style: italic;
+
+     width:100%;
+
+     margin: 0 auto;
+     text-align: center;
+
+     color:#313131;
+     font-size:35px;
+     font-weight: bold;
+     position: absolute;
+     -webkit-animation:colorchange 20s infinite alternate;
+
+
+   }
+
+   @-webkit-keyframes colorchange {
+     0% {
+
+       color: blue;
+     }
+
+     10% {
+
+       color: #8e44ad;
+     }
+
+     20% {
+
+       color: #1abc9c;
+     }
+
+     30% {
+
+       color: #d35400;
+     }
+
+     40% {
+
+       color: blue;
+     }
+
+     50% {
+
+       color: #34495e;
+     }
+
+     60% {
+
+       color: blue;
+     }
+
+     70% {
+
+       color: #2980b9;
+     }
+     80% {
+
+       color: #f1c40f;
+     }
+
+     90% {
+
+       color: #2980b9;
+     }
+
+     100% {
+
+       color: pink;
+     }
